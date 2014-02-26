@@ -1,4 +1,15 @@
 dependencies: \
+<<<<<<< HEAD
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiNetworkSocketProxy.m \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiNetworkSocketProxy.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiProxy.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiBase.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiThreading.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiPublicAPI.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiEvaluator.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/KrollContext.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/headers/TiCore/TiCore.h \
+=======
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/TiNetworkSocketProxy.m \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/TiNetworkSocketProxy.h \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/TiProxy.h \
@@ -8,10 +19,22 @@ dependencies: \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/TiEvaluator.h \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/KrollContext.h \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/headers/TiCore/TiCore.h \
+>>>>>>> Other Changes
   headers/TiCore/Ti.h headers/TiCore/TiBase.h \
   headers/TiCore/TiContextRef.h headers/TiCore/TiObjectRef.h \
   headers/TiCore/TiValueRef.h headers/TiCore/WebKitAvailability.h \
   headers/TiCore/TiStringRef.h headers/TiCore/TiStringRefCF.h \
+<<<<<<< HEAD
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/headers/TiCore/TiContextRefPrivate.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/KrollCallback.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/KrollObject.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiNetworkSocketTCPProxy.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiStreamProxy.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/Tibuffer.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/TiBlob.h \
+  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/AsyncSocket.h
+=======
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/headers/TiCore/TiContextRefPrivate.h \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/KrollCallback.h \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/KrollObject.h \
@@ -21,3 +44,4 @@ dependencies: \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/Tibuffer.h \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/TiBlob.h \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/AsyncSocket.h
+>>>>>>> Other Changes

@@ -6,6 +6,12 @@ function Controller() {
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
+<<<<<<< HEAD
+    $.__views.artistswindow = Ti.UI.createView({
+        id: "artistswindow"
+    });
+    $.__views.artistswindow && $.addTopLevelView($.__views.artistswindow);
+=======
     $.__views.artistswindow = Ti.UI.createTableViewRow({
         id: "artistswindow"
     });
@@ -26,6 +32,7 @@ function Controller() {
         id: "tipo"
     });
     $.__views.artistswindow.add($.__views.tipo);
+>>>>>>> Other Changes
     exports.destroy = function() {};
     _.extend($, $.__views);
     arguments[0] || {};
