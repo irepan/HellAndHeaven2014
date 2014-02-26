@@ -9,3 +9,16 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+
+Alloy.Globals.scenarios = [
+	{scenario:"Scenario 1"},
+	{scenario:"Scenario 2"}
+];
+Alloy.Globals.artistas = [
+	{scenario:"Scenario 1",
+	 nombre:"Anthrax",
+	 tipo:"Metal",
+	 horario:"Horario",
+	 imagen:""
+	}
+];

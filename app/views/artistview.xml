@@ -1,0 +1,8 @@
+<Alloy>
+	<TableViewRow id="artistView">
+		<ImageView id="imagen"/>
+		<Label id="artista"/>
+		<Label id="horario"/>
+		<Laberl id="tipo"/>
+	</TableViewRow>
+</Alloy>

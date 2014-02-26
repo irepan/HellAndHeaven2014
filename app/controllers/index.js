@@ -1,5 +1,6 @@
 function doClick(e) {
     alert($.label.text);
 }
-
-$.index.open();
+var scenario = Alloy.createController('scenariowindow').getView();
+scenario.open();
+//$.index.open();
