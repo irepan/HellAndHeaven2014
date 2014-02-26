@@ -1,8 +1,26 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor:"white",
+	backgroundImage:"img/background.jpg",
+	width:"100%",
+	layout:"horizontal",
 },
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
-	color: "#000"
-} 
+	color: "#000",
+},
+"#day": {
+	width:"33%",
+	backgroundColor:"white",
+	top:"10"
+},
+"#artist": {
+	width:"33%",
+	backgroundColor:"red",
+	top:"10"
+},
+"#schedule": {
+	width:"33%",
+	backgroundColor:"black",
+	top:"10"
+}

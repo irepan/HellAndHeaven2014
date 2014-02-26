@@ -1,5 +1,13 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<View id="day">
+			
+		</View>
+		<View id="artist">
+			
+		</View>
+		<View id="schedule">
+			
+		</View>
 	</Window>
 </Alloy>

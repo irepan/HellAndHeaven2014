@@ -1,0 +1,23 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "universal",
+	"iosSdkPath": "/Users/jhonatansalazardelgado/Library/Application Support/Titanium/mobilesdk/osx/3.2.1.GA/iphone",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"gitHash": "991027b",
+	"name": "HellAndHeaven",
+	"id": "com.porfm.app",
+	"analytics": true,
+	"publisher": "irepan",
+	"url": "http://por.fm",
+	"version": "1.0",
+	"description": "not specified",
+	"copyright": "2014 by irepan",
+	"guid": "70bfe607-2286-47c0-b61c-e093f84c6940",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false,
+	"encryptJS": false
+}
