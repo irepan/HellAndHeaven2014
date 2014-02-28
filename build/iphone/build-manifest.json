@@ -2,11 +2,7 @@
 	"target": "simulator",
 	"deployType": "development",
 	"deviceFamily": "universal",
-<<<<<<< HEAD
-	"iosSdkPath": "/Users/jhonatansalazardelgado/Library/Application Support/Titanium/mobilesdk/osx/3.2.1.GA/iphone",
-=======
 	"iosSdkPath": "/Users/irepan/Library/Application Support/Titanium/mobilesdk/osx/3.2.1.GA/iphone",
->>>>>>> Other Changes
 	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
 	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",

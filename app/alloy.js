@@ -10,6 +10,16 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
+
+Alloy.Globals.osname = Ti.Platform.osname,
+Alloy.Globals.version = Ti.Platform.version,
+Alloy.Globals.height = Ti.Platform.displayCaps.platformHeight,
+Alloy.Globals.width = Ti.Platform.displayCaps.platformWidth;
+	
+	//considering tablet to have one dimension over 900px - this is imperfect, so you should feel free to decide
+	//yourself what you consider a tablet form factor for android
+Alloy.Globals.isTablet = Alloy.Globals.osname === 'ipad' || (Alloy.Globals.osname === 'android' && (Alloy.Globals.width > 899 || Alloy.Globals.height > 899));
+
 Alloy.Globals.scenarios = [
 	{scenario:"Scenario 1"},
 	{scenario:"Scenario 2"}

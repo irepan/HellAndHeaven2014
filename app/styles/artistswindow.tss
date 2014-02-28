@@ -1,0 +1,16 @@
+"#image":{
+	left:5,
+	top:5,
+	height:50,
+	width:50,
+	backgroundColor:"white"
+},
+"#name":{
+	
+},
+"#time":{
+	
+},
+"#type":{
+	
+}

@@ -1,0 +1,26 @@
+"Window": {
+	backgroundImage:"img/background.jpg"
+},
+"SearchBar":{
+	opacity:0.2,
+	backgroundColor:"transparent",
+	backgroundSelectedColor:"transparent"
+},
+"TableView":{
+//	opacity:0.3
+	backgroundColor:"transparent",
+	backgroundDisabledColor:"transparent"
+},
+"TableViewRow":{
+	backgroundColor:"transparent",
+	backgroundDisabledColor:"transparent"	
+},
+".section":{
+	backgroundColor:"brown"
+},
+".content":{
+//	opacity:0,
+//	top:50,
+	left:0,
+	right:0,
+}

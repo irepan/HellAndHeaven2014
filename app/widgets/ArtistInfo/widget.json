@@ -1,0 +1,13 @@
+{
+	"id": "ArtistInfo",
+	"name": "ArtistInfo",
+	"description" : "TableViewRow with apabilities to set artist info",
+	"author": "Irepan Chavez",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2012",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,blackberry,ios,mobileweb,tizen"
+}

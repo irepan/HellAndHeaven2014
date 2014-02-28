@@ -1,11 +1,6 @@
 dependencies: \
-<<<<<<< HEAD
-  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/GDataXMLNode.m \
-  /Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/iphone/Classes/GDataXMLNode.h \
-=======
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/GDataXMLNode.m \
   /Users/irepan/Documents/Curso\ Moviles/Workspaces/ejemplos-titanium/HellAndHeaven/build/iphone/Classes/GDataXMLNode.h \
->>>>>>> Other Changes
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2/libxml/xmlexports.h \

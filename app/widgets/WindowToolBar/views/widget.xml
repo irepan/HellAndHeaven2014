@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="toolbar">
+		<View id="iostop" />
+		<View id="toolbarButtons">
+			<ImageView id="leftButton" class="toolbarButton" onClick="leftClick"/>
+			<Label id="title" class="toolbarText"/>
+			<ImageView id="rightButton" class="toolbarButton" onClick="rightClick">
+		</View>
+	</View>
+</Alloy>

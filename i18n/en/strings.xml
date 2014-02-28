@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="home">Home</string>
+	<string name="menu">Menu and formulas</string>
+	<string name="formulas">Formulas Bevamos</string>
+	<string name="tequila">Tequila</string>
+	<string name="rum">Rum</string>
+	<string name="vodka">Vodka</string>
+	<string name="whiskey">Whiskey</string>
+	<string name="brandy&cognac">Brandy & Cognac</string>
+	<string name="wines&others">Wines & Others</string>
+	<string name="mixers">Mixers</string>
+	<string name="beer">Beer</string>
+	<string name="others">Others</string>
+	<string name="scenarios">Scenarios</string>
+</resources>

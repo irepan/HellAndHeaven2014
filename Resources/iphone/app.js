@@ -1,12 +1,22 @@
 var Alloy = require("alloy"), _ = Alloy._, Backbone = Alloy.Backbone;
 
-<<<<<<< HEAD
-=======
+Alloy.Globals.osname = Ti.Platform.osname, Alloy.Globals.version = Ti.Platform.version, 
+Alloy.Globals.height = Ti.Platform.displayCaps.platformHeight, Alloy.Globals.width = Ti.Platform.displayCaps.platformWidth;
+
+Alloy.Globals.isTablet = "ipad" === Alloy.Globals.osname || "android" === Alloy.Globals.osname && (Alloy.Globals.width > 899 || Alloy.Globals.height > 899);
+
 Alloy.Globals.scenarios = [ {
-    titulo: "Scenario 1"
+    scenario: "Scenario 1"
 }, {
-    titulo: "Scenario 2"
+    scenario: "Scenario 2"
 } ];
 
->>>>>>> Other Changes
+Alloy.Globals.artistas = [ {
+    scenario: "Scenario 1",
+    nombre: "Anthrax",
+    tipo: "Metal",
+    horario: "Horario",
+    imagen: ""
+} ];
+
 Alloy.createController("index");

@@ -6,33 +6,10 @@ function Controller() {
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
-<<<<<<< HEAD
     $.__views.artistswindow = Ti.UI.createView({
         id: "artistswindow"
     });
     $.__views.artistswindow && $.addTopLevelView($.__views.artistswindow);
-=======
-    $.__views.artistswindow = Ti.UI.createTableViewRow({
-        id: "artistswindow"
-    });
-    $.__views.artistswindow && $.addTopLevelView($.__views.artistswindow);
-    $.__views.imagen = Ti.UI.createImageView({
-        id: "imagen"
-    });
-    $.__views.artistswindow.add($.__views.imagen);
-    $.__views.artista = Ti.UI.createLabel({
-        id: "artista"
-    });
-    $.__views.artistswindow.add($.__views.artista);
-    $.__views.horario = Ti.UI.createLabel({
-        id: "horario"
-    });
-    $.__views.artistswindow.add($.__views.horario);
-    $.__views.tipo = Ti.UI.createLaberl({
-        id: "tipo"
-    });
-    $.__views.artistswindow.add($.__views.tipo);
->>>>>>> Other Changes
     exports.destroy = function() {};
     _.extend($, $.__views);
     arguments[0] || {};

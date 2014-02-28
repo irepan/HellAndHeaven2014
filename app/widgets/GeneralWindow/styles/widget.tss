@@ -1,0 +1,4 @@
+"Window": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}

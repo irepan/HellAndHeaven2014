@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="generalWindow" id="window">
+		<View id="toolbar"/>
+		<View class="content" id="content">
+		</View>
+	</Window>
+</Alloy>

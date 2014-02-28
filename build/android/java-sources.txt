@@ -1,5 +1,0 @@
-"/Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/android/gen/com/porfm/app/ApplicationStylesheet.java"
-"/Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/android/gen/com/porfm/app/HellandheavenActivity.java"
-"/Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/android/gen/com/porfm/app/HellandheavenAppInfo.java"
-"/Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/android/gen/com/porfm/app/HellandheavenApplication.java"
-"/Users/jhonatansalazardelgado/Documents/Titanium_Studio_Workspace/HellAndHeaven/build/android/gen/com/porfm/app/R.java"
