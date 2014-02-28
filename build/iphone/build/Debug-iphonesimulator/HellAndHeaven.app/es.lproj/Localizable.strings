@@ -4,15 +4,4 @@
  */
 
 "home" = "Inicio";
-"menu" = "Menús y fórmulas";
-"formulas" = "Fórmulas Bevamos";
-"tequila" = "Tequila";
-"rum" = "Ron";
-"vodka" = "Vodka";
-"whiskey" = "Whiskey";
-"brandy&cognac" = "Brandy & Cognac";
-"wines&others" = "Vinos & Otros";
-"mixers" = "Mezcladores";
-"beer" = "Cerveza";
-"others" = "Otros";
 "scenarios" = "Escenarios";

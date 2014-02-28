@@ -1,0 +1,12 @@
+<Alloy>
+	<TableViewRow class="formattedViewRow" id="row">
+		<View class="formattedViewRow">
+			<ImageView id="image"/>
+			<View class="formattedLabelView">
+				<Label id="title"/>
+				<Label id="subtitle"/>
+				<Label id="detail"/>
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

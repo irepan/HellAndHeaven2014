@@ -35,11 +35,11 @@ function Controller() {
         }).getView();
         $.scenario.appendSection(scenario);
         if (0 == index) for (var i = 0; 3 > i; i++) {
-            var artistRow = Alloy.createWidget("ArtistInfo", "widget", {
-                artist: "Test",
+            var artistRow = Alloy.Globals.createBandRow({
+                band: "Test",
                 time: "10:00",
                 type: "Rock"
-            }).getView();
+            });
             scenario.add(artistRow);
         }
     }

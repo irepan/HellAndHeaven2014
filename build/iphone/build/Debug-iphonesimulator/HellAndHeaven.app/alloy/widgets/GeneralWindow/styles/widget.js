@@ -30,19 +30,19 @@ module.exports = [ {
     }
 }, {
     isApi: true,
+    priority: 1000.0003,
+    key: "Window",
+    style: {
+        height: Ti.UI.SIZE,
+        width: Ti.UI.SIZE
+    }
+}, {
+    isApi: true,
     priority: 1000.0004,
     key: "TableViewRow",
     style: {
         backgroundColor: "transparent",
         backgroundDisabledColor: "transparent"
-    }
-}, {
-    isApi: true,
-    priority: 1000.001,
-    key: "Window",
-    style: {
-        height: Ti.UI.SIZE,
-        width: Ti.UI.SIZE
     }
 }, {
     isClass: true,

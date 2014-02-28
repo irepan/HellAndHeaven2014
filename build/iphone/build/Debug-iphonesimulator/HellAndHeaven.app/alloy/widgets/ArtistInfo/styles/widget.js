@@ -100,20 +100,20 @@ module.exports = [ {
             fontWeight: "bold"
         },
         color: "white",
-        top: 12
+        top: 20
     }
 }, {
     isId: true,
     priority: 100000.0007,
     key: "time",
     style: {
-        top: 32
+        top: 40
     }
 }, {
     isId: true,
     priority: 100000.0008,
     key: "type",
     style: {
-        top: 46
+        visible: false
     }
 } ];

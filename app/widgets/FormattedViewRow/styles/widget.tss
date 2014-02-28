@@ -6,11 +6,11 @@
 //	height: Ti.UI.SIZE,
 //	width: Ti.UI.SIZE
 },
-".artistInfoView":{
+".formattedViewRow":{
 	backgroundColor:"transparent",
 	height:80
 },
-".artistInfoLabelView":{
+".formattedLabelView":{
 	left:105
 },
 "#image":{
@@ -21,17 +21,17 @@
 	width:100,
 	backgroundColor:"white"
 },
-"#name":{
+"#title":{
 	font: {
 		fontSize: 18,
 		fontWeight: 'bold'
 	},
 	color:"white",
-	top:12
+//	top:12
 },
-"#time":{
-	top:32
+"#subtitle":{
+//	top:32
 },
-"#type":{
-	top:46
+"#detail":{
+//	top:46
 }

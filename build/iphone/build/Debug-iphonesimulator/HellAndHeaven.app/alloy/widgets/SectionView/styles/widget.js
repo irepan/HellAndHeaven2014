@@ -22,6 +22,19 @@ module.exports = [ {
     }
 }, {
     isApi: true,
+    priority: 1000.0002,
+    key: "Label",
+    style: {
+        color: "#000",
+        font: {
+            fontSize: 18,
+            fontWeight: "bold"
+        },
+        height: Ti.UI.SIZE,
+        width: Ti.UI.SIZE
+    }
+}, {
+    isApi: true,
     priority: 1000.0003,
     key: "TableView",
     style: {
@@ -35,19 +48,6 @@ module.exports = [ {
     style: {
         backgroundColor: "transparent",
         backgroundDisabledColor: "transparent"
-    }
-}, {
-    isApi: true,
-    priority: 1000.0009,
-    key: "Label",
-    style: {
-        color: "#000",
-        font: {
-            fontSize: 18,
-            fontWeight: "bold"
-        },
-        height: Ti.UI.SIZE,
-        width: Ti.UI.SIZE
     }
 }, {
     isClass: true,

@@ -20,11 +20,11 @@ for (var index in Alloy.Globals.scenarios){
 	$.scenario.appendSection(scenario);
 	if (index==0){
 		for (var i=0;i<3;i++){
-			var artistRow = Alloy.createWidget('ArtistInfo',"widget",{
-				artist:"Test",
+			var artistRow = Alloy.Globals.createBandRow({
+				band:"Test",
 				time:"10:00",
 				type:"Rock"
-			}).getView();
+			});
 			scenario.add(artistRow);
 		}
 	}

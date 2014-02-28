@@ -1,7 +1,7 @@
 {
-	"id": "ArtistInfo",
-	"name": "ArtistInfo",
-	"description" : "TableViewRow with apabilities to set artist info",
+	"id": "FormattedViewRow",
+	"name": "FormattedViewRow",
+	"description" : "Returns a formated TableViewRow",
 	"author": "Irepan Chavez",
 	"version": "1.0",
 	"copyright":"Copyright (c) 2012",

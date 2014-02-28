@@ -50,7 +50,7 @@ function Controller() {
             fontWeight: "bold"
         },
         left: 10,
-        top: 12,
+        top: 20,
         id: "name"
     });
     $.__views.__alloyId1.add($.__views.name);
@@ -61,7 +61,7 @@ function Controller() {
             fontSize: 12
         },
         left: 10,
-        top: 32,
+        top: 40,
         id: "time"
     });
     $.__views.__alloyId1.add($.__views.time);
@@ -72,7 +72,7 @@ function Controller() {
             fontSize: 12
         },
         left: 10,
-        top: 46,
+        visible: false,
         id: "type"
     });
     $.__views.__alloyId1.add($.__views.type);

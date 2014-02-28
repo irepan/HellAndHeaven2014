@@ -1,6 +1,6 @@
 function WPATH(s) {
     var index = s.lastIndexOf("/");
-    var path = -1 === index ? "WindowToolBar/" + s : s.substring(0, index) + "/WindowToolBar/" + s.substring(index + 1);
+    var path = -1 === index ? "FormattedViewRow/" + s : s.substring(0, index) + "/FormattedViewRow/" + s.substring(index + 1);
     return path;
 }
 
@@ -37,6 +37,18 @@ module.exports = [ {
         backgroundDisabledColor: "transparent"
     }
 }, {
+    isApi: true,
+    priority: 1000.0011,
+    key: "Label",
+    style: {
+        color: "brown",
+        textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+        font: {
+            fontSize: 12
+        },
+        left: 10
+    }
+}, {
     isClass: true,
     priority: 10000.0005,
     key: "section",
@@ -53,65 +65,50 @@ module.exports = [ {
     }
 }, {
     isClass: true,
-    priority: 10000.0007,
-    key: "toolbarButton",
+    priority: 10000.0012,
+    key: "formattedViewRow",
     style: {
-        height: 20,
-        width: 20,
-        top: 5,
-        backgroundColor: "white"
+        backgroundColor: "transparent",
+        height: 80
     }
 }, {
     isClass: true,
-    priority: 10000.001,
-    key: "toolbarText",
+    priority: 10000.0013,
+    key: "formattedLabelView",
+    style: {
+        left: 105
+    }
+}, {
+    isId: true,
+    priority: 100000.0014,
+    key: "image",
+    style: {
+        top: 5,
+        left: 5,
+        bottom: 5,
+        height: 70,
+        width: 100,
+        backgroundColor: "white"
+    }
+}, {
+    isId: true,
+    priority: 100000.0015,
+    key: "title",
     style: {
         font: {
-            fontSize: 12,
+            fontSize: 18,
             fontWeight: "bold"
-        }
+        },
+        color: "white"
     }
 }, {
     isId: true,
-    priority: 100000.0004,
-    key: "iostop",
-    style: {
-        backgroundColor: "gray",
-        top: 0,
-        left: 0,
-        right: 0,
-        height: 20
-    }
+    priority: 100000.0016,
+    key: "subtitle",
+    style: {}
 }, {
     isId: true,
-    priority: 100000.0005,
-    key: "toolbarButtons",
-    style: {
-        backgroundColor: "brown",
-        height: 30,
-        top: 20,
-        left: 0,
-        right: 0
-    }
-}, {
-    isId: true,
-    priority: 100000.0006,
-    key: "toolbar",
-    style: {
-        backgroundColor: "transparent"
-    }
-}, {
-    isId: true,
-    priority: 100000.0008,
-    key: "leftButton",
-    style: {
-        left: 5
-    }
-}, {
-    isId: true,
-    priority: 100000.0009,
-    key: "rightButton",
-    style: {
-        right: 5
-    }
+    priority: 100000.0017,
+    key: "detail",
+    style: {}
 } ];
