@@ -138,9 +138,6 @@ function Controller() {
 
           case "rightClick":
             handlers.rightClick = listenerFunction;
-
-          default:
-            Ti.API.info("algo");
         }
     };
     contentView.top = 30;

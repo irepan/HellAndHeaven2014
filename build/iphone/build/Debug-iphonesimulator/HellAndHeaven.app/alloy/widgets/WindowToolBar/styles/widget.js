@@ -53,7 +53,7 @@ module.exports = [ {
     }
 }, {
     isClass: true,
-    priority: 10000.0014,
+    priority: 10000.002,
     key: "toolbarButton",
     style: {
         height: 20,
@@ -63,7 +63,7 @@ module.exports = [ {
     }
 }, {
     isClass: true,
-    priority: 10000.0017,
+    priority: 10000.0023,
     key: "toolbarText",
     style: {
         font: {
@@ -73,7 +73,7 @@ module.exports = [ {
     }
 }, {
     isId: true,
-    priority: 100000.0011,
+    priority: 100000.0017,
     key: "iostop",
     style: {
         backgroundColor: "gray",
@@ -84,7 +84,7 @@ module.exports = [ {
     }
 }, {
     isId: true,
-    priority: 100000.0012,
+    priority: 100000.0018,
     key: "toolbarButtons",
     style: {
         backgroundColor: "brown",
@@ -95,21 +95,21 @@ module.exports = [ {
     }
 }, {
     isId: true,
-    priority: 100000.0013,
+    priority: 100000.0019,
     key: "toolbar",
     style: {
         backgroundColor: "transparent"
     }
 }, {
     isId: true,
-    priority: 100000.0015,
+    priority: 100000.0021,
     key: "leftButton",
     style: {
         left: 5
     }
 }, {
     isId: true,
-    priority: 100000.0016,
+    priority: 100000.0022,
     key: "rightButton",
     style: {
         right: 5

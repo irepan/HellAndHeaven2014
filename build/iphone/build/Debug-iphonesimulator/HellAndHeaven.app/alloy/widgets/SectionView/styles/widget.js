@@ -38,7 +38,7 @@ module.exports = [ {
     }
 }, {
     isApi: true,
-    priority: 1000.0009,
+    priority: 1000.0015,
     key: "Label",
     style: {
         color: "#000",

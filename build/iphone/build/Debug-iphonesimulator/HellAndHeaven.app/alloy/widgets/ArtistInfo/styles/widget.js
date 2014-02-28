@@ -22,18 +22,6 @@ module.exports = [ {
     }
 }, {
     isApi: true,
-    priority: 1000.0002,
-    key: "Label",
-    style: {
-        color: "brown",
-        textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
-        font: {
-            fontSize: 12
-        },
-        left: 10
-    }
-}, {
-    isApi: true,
     priority: 1000.0003,
     key: "TableView",
     style: {
@@ -49,19 +37,16 @@ module.exports = [ {
         backgroundDisabledColor: "transparent"
     }
 }, {
-    isClass: true,
-    priority: 10000.0003,
-    key: "artistInfoView",
+    isApi: true,
+    priority: 1000.0008,
+    key: "Label",
     style: {
-        backgroundColor: "transparent",
-        height: 80
-    }
-}, {
-    isClass: true,
-    priority: 10000.0004,
-    key: "artistInfoLabelView",
-    style: {
-        left: 105
+        color: "brown",
+        textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+        font: {
+            fontSize: 12
+        },
+        left: 10
     }
 }, {
     isClass: true,
@@ -79,8 +64,23 @@ module.exports = [ {
         right: 0
     }
 }, {
+    isClass: true,
+    priority: 10000.0009,
+    key: "artistInfoView",
+    style: {
+        backgroundColor: "transparent",
+        height: 80
+    }
+}, {
+    isClass: true,
+    priority: 10000.001,
+    key: "artistInfoLabelView",
+    style: {
+        left: 105
+    }
+}, {
     isId: true,
-    priority: 100000.0005,
+    priority: 100000.0011,
     key: "image",
     style: {
         top: 5,
@@ -92,7 +92,7 @@ module.exports = [ {
     }
 }, {
     isId: true,
-    priority: 100000.0006,
+    priority: 100000.0012,
     key: "name",
     style: {
         font: {
@@ -104,14 +104,14 @@ module.exports = [ {
     }
 }, {
     isId: true,
-    priority: 100000.0007,
+    priority: 100000.0013,
     key: "time",
     style: {
         top: 32
     }
 }, {
     isId: true,
-    priority: 100000.0008,
+    priority: 100000.0014,
     key: "type",
     style: {
         top: 46

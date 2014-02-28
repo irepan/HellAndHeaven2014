@@ -38,7 +38,7 @@ module.exports = [ {
     }
 }, {
     isApi: true,
-    priority: 1000.001,
+    priority: 1000.0016,
     key: "Window",
     style: {
         height: Ti.UI.SIZE,
