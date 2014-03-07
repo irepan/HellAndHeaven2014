@@ -2,4 +2,5 @@
 <resources>
 	<string name="home">Inicio</string>
 	<string name="scenarios">Escenarios</string>
+	<string name="bands">Bandas</string>
 </resources>

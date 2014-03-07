@@ -33,7 +33,7 @@ function Controller() {
         bottom: 5,
         height: 70,
         width: 100,
-        backgroundColor: "white",
+        color: "transparent",
         id: "image"
     });
     $.__views.__alloyId1.add($.__views.image);
@@ -112,7 +112,7 @@ function Controller() {
     };
     var setTitle = function(title) {
         $.title.text = title;
-        $.row.title = title;
+        $.row.searchFilter = title;
         setArrangement();
     };
     var setSubtitle = function(subtitle) {

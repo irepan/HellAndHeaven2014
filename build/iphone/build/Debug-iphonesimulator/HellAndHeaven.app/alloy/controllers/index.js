@@ -37,7 +37,7 @@ function Controller() {
     $.__views.index.add($.__views.schedule);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    var scenario = Alloy.createController("scenariowindow").getView();
+    var scenario = Alloy.createController("schedulewindow").getView();
     scenario.open();
     _.extend($, exports);
 }

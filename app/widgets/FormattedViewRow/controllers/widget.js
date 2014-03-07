@@ -41,7 +41,7 @@ var setImage = function(image){
 var setTitle = function(title){
 	var _title = title || "";
 	$.title.text = title;
-	$.row.title = title;
+	$.row.searchFilter = title;
 	setArrangement();
 };
 var setSubtitle = function(subtitle){

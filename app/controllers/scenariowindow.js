@@ -1,17 +1,11 @@
 var args = arguments[0] || {};
 
-/*var launchWindow = Alloy.createController('generalWindow',{
-	title:L('scenarios'),
-	content:$.scenario,
-	leftClick:function(e){$.scenario.close();}
-}).getView();*/
 var launchWindow = Alloy.createWidget('GeneralWindow','widget',{
 	title:L('scenarios'),
 	content:$.scenario,
 	leftClick:function(e){$.scenario.close();}
 }).getView();
 
-//launchWindow.setContent($.scenario);
 
 for (var index in Alloy.Globals.scenarios){
 	var scenario = Alloy.createWidget("SectionView","widget",{
@@ -29,7 +23,3 @@ for (var index in Alloy.Globals.scenarios){
 		}
 	}
 };
-/*$.scenario.open = function(e){
-	launchWindow.open();
-};
-*/

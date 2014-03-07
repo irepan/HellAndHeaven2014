@@ -6,17 +6,18 @@ function Controller() {
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
-    $.__views.__alloyId3 = Ti.UI.createSearchBar({
+    $.__views.__alloyId4 = Ti.UI.createSearchBar({
         opacity: .2,
         backgroundColor: "transparent",
         backgroundSelectedColor: "transparent",
-        id: "__alloyId3"
+        id: "__alloyId4"
     });
     $.__views.scenario = Ti.UI.createTableView({
         backgroundColor: "transparent",
         backgroundDisabledColor: "transparent",
-        search: $.__views.__alloyId3,
-        id: "scenario"
+        search: $.__views.__alloyId4,
+        id: "scenario",
+        filterAttribute: "searchFilter"
     });
     $.__views.scenario && $.addTopLevelView($.__views.scenario);
     exports.destroy = function() {};

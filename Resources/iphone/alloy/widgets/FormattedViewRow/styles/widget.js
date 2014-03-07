@@ -88,7 +88,7 @@ module.exports = [ {
         bottom: 5,
         height: 70,
         width: 100,
-        backgroundColor: "white"
+        color: "transparent"
     }
 }, {
     isId: true,

@@ -19,7 +19,7 @@
 	bottom:5,
 	height:70,
 	width:100,
-	backgroundColor:"white"
+	color:"transparent"
 },
 "#title":{
 	font: {

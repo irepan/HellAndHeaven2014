@@ -1,4 +1,5 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<TableView id="artist" filterAttribute="searchFilter">
+		<SearchBar class="search">		
+	</TableView>
 </Alloy>
